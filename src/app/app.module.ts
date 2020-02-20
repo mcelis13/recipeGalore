@@ -7,14 +7,16 @@ import { AppComponent } from './app.component';
 import { Header } from '../app/header/header';
 import { ShoppingList } from '../app/shopping-list/shopping-list';
 import { ShoppingListEdit } from '../app/shopping-list-edit/shopping-list-edit';
-import { RecipeDetail } from '../app/recipe-detail/recipe-detail';
-import { RecipeItem } from '../app/recipe-item/recipe-item';
-import { RecipeList } from '../app/recipe-list/recipe-list';
+import { Recipes } from '../app/recipes/recipes';
+import { RecipeDetail } from './recipes/recipe-detail/recipe-detail';
+import { RecipeItem } from './recipes/recipe-list/recipe-item/recipe-item';
+import { RecipeList } from './recipes/recipe-list/recipe-list';
 
 @NgModule({
   declarations: [
     AppComponent,
     Header,
+    Recipes,
     RecipeDetail,
     RecipeItem,
     RecipeList,
