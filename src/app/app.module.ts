@@ -6,7 +6,7 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { Header } from '../app/header/header';
 import { ShoppingList } from '../app/shopping-list/shopping-list';
-import { ShoppingListEdit } from '../app/shopping-list-edit/shopping-list-edit';
+import { ShoppingListEdit } from './shopping-list/shopping-list-edit/shopping-list-edit';
 import { Recipes } from '../app/recipes/recipes';
 import { RecipeDetail } from './recipes/recipe-detail/recipe-detail';
 import { RecipeItem } from './recipes/recipe-list/recipe-item/recipe-item';
